@@ -3,19 +3,20 @@ TenantSpace is an innovative tenant management and interaction iOS application f
 
 ## Table of contents
 - [Project progress](##Project_progress)
-- [Requirements](##Requirements)
-- [Design](##Design)
+- [App features](##App_features)
+- [Main Design diagrams](##Main_Design_diagrams)
 - [Prototype](##Prototype)
 - [Implementation](##Implementation)
 - [Testing](##Testing)
 - [Optimisation](##Optimisation)
 
 ## Project progress
-Currently I am on developing the User and System requirements.
+So far the User and System requirements are clearly defined and speicfied up to System's funtional requirements.
 
+Currently I am on the desing stage. Particularly, working on Use cases diagram.  
 
-## Requirements
-## Design
+## App features
+## Main Design diagrams
 ## Prototype
 ## Implementation
 ## Testing
