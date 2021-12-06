@@ -1,5 +1,5 @@
-# TenantSpace
-TenantSpace is an innovative tenant management and interaction iOS application for both Landlord and Tenants. 
+# Indoor Crocodile
+Indoor Crocodile is an innovative tenant management and interaction iOS application for both Landlord and Tenants. 
 
 ## Table of contents
 - [Project's progress](#project-progress)
