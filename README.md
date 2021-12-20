@@ -12,9 +12,9 @@ Indoor Crocodile is an innovative tenant management and interaction iOS applicat
 
 <h2 id="project-progress"> Project's progress </h2>
 
-- [x] User and System requirements are clearly defined and speicfied up to System's funtional requirements;
-- [x] Use cases diagram is finished;
-- [x] Domain class generation and Domain model diagram is done;
+- [x] Initial brainstorming & feature generation;
+- [x] Requirements development;
+- [ ] Design;
 
 
 Currently I am on the desing stage. Particularly, working on Sequence and Activity diagrams.  
