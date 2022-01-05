@@ -14,6 +14,8 @@
 		659908EC275E9F71001F7C8B /* Indoor_CrocodileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908EB275E9F71001F7C8B /* Indoor_CrocodileTests.swift */; };
 		659908F6275E9F71001F7C8B /* Indoor_CrocodileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908F5275E9F71001F7C8B /* Indoor_CrocodileUITests.swift */; };
 		659908F8275E9F71001F7C8B /* Indoor_CrocodileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908F7275E9F71001F7C8B /* Indoor_CrocodileUITestsLaunchTests.swift */; };
+		65F8E72227862A490001F177 /* Tenant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F8E72127862A490001F177 /* Tenant.swift */; };
+		65F8E72427862A4F0001F177 /* Landlord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F8E72327862A4F0001F177 /* Landlord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		659908F1275E9F71001F7C8B /* Indoor-CrocodileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indoor-CrocodileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659908F5275E9F71001F7C8B /* Indoor_CrocodileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indoor_CrocodileUITests.swift; sourceTree = "<group>"; };
 		659908F7275E9F71001F7C8B /* Indoor_CrocodileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indoor_CrocodileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65F8E72127862A490001F177 /* Tenant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tenant.swift; sourceTree = "<group>"; };
+		65F8E72327862A4F0001F177 /* Landlord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landlord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		659908D9275E9F6C001F7C8B /* Indoor-Crocodile */ = {
 			isa = PBXGroup;
 			children = (
+				65F8E72027862A3E0001F177 /* Models */,
 				659908DA275E9F6C001F7C8B /* Indoor_CrocodileApp.swift */,
 				659908DC275E9F6C001F7C8B /* ContentView.swift */,
 				659908DE275E9F70001F7C8B /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				659908F7275E9F71001F7C8B /* Indoor_CrocodileUITestsLaunchTests.swift */,
 			);
 			path = "Indoor-CrocodileUITests";
+			sourceTree = "<group>";
+		};
+		65F8E72027862A3E0001F177 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65F8E72127862A490001F177 /* Tenant.swift */,
+				65F8E72327862A4F0001F177 /* Landlord.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F8E72227862A490001F177 /* Tenant.swift in Sources */,
+				65F8E72427862A4F0001F177 /* Landlord.swift in Sources */,
 				659908DD275E9F6C001F7C8B /* ContentView.swift in Sources */,
 				659908DB275E9F6C001F7C8B /* Indoor_CrocodileApp.swift in Sources */,
 			);
