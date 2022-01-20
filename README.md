@@ -21,7 +21,7 @@ Currently I am on the desing stage. Particularly, optimising domain model.
 <h2 id="app-features"> App features </h2>
 <h2 id="main-design-diagrams"> Main Design diagrams </h2>
 
-<p align="center">Use case diagram</p>
+<p align="center">Use case diagram(improved)</p>
 
 ![Indoor Crocodile use cases](https://user-images.githubusercontent.com/55618255/150384427-8d358754-5cfc-40e8-8cdf-236e30e31626.jpg)
 
