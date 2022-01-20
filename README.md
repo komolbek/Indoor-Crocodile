@@ -6,9 +6,8 @@ Indoor Crocodile is an innovative tenant management and interaction iOS applicat
 - [App features](#app-features)
 - [Main Design diagrams](#main-design-diagrams)
 - [Prototype](#prototype)
-- [Implementation](#implementation)
 - [Testing](#testing)
-- [Optimisation](#optimisation)
+- [Technologies](#technologies)
 
 <h2 id="project-progress"> Project's progress </h2>
 
@@ -17,14 +16,15 @@ Indoor Crocodile is an innovative tenant management and interaction iOS applicat
 - [ ] Design;
 
 
-Currently I am on the desing stage. Particularly, working on Sequence and Activity diagrams.  
+Currently I am on the desing stage. Particularly, optimising domain model.  
 
 <h2 id="app-features"> App features </h2>
 <h2 id="main-design-diagrams"> Main Design diagrams </h2>
 
 <p align="center">Use case diagram</p>
 
-<img width="703" alt="Screenshot 2021-12-06 at 14 11 36" src="https://user-images.githubusercontent.com/55618255/144861749-4eb51e86-ce24-4c6c-9e71-cac629a3ca8f.png">
+![Indoor Crocodile use cases](https://user-images.githubusercontent.com/55618255/150384427-8d358754-5cfc-40e8-8cdf-236e30e31626.jpg)
+
 
 <p align="center">Domain classes and model diagram</p>
 
@@ -33,4 +33,4 @@ Currently I am on the desing stage. Particularly, working on Sequence and Activi
 <h2 id="prototype"> Prototype </h2>
 <h2 id="implementation"> Implementation </h2>
 <h2 id="testing"> Testing </h2>
-<h2 id="optimisation"> Optimisation </h2>
+<h2 id="technologies"> Technologies </h2>
