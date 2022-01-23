@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65679776279DBA2700B8F59F /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679775279DBA2700B8F59F /* UserAccount.swift */; };
+		65679778279DBA2D00B8F59F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679777279DBA2D00B8F59F /* User.swift */; };
+		6567977A279DBDB100B8F59F /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679779279DBDB100B8F59F /* House.swift */; };
 		659908DB275E9F6C001F7C8B /* Indoor_CrocodileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908DA275E9F6C001F7C8B /* Indoor_CrocodileApp.swift */; };
 		659908DD275E9F6C001F7C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908DC275E9F6C001F7C8B /* ContentView.swift */; };
 		659908DF275E9F70001F7C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659908DE275E9F70001F7C8B /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65679775279DBA2700B8F59F /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		65679777279DBA2D00B8F59F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		65679779279DBDB100B8F59F /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		659908D7275E9F6C001F7C8B /* Indoor-Crocodile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indoor-Crocodile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659908DA275E9F6C001F7C8B /* Indoor_CrocodileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indoor_CrocodileApp.swift; sourceTree = "<group>"; };
 		659908DC275E9F6C001F7C8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,7 +104,7 @@
 		659908D9275E9F6C001F7C8B /* Indoor-Crocodile */ = {
 			isa = PBXGroup;
 			children = (
-				65F8E72027862A3E0001F177 /* Models */,
+				65F8E72027862A3E0001F177 /* Model */,
 				659908DA275E9F6C001F7C8B /* Indoor_CrocodileApp.swift */,
 				659908DC275E9F6C001F7C8B /* ContentView.swift */,
 				659908DE275E9F70001F7C8B /* Assets.xcassets */,
@@ -132,13 +138,16 @@
 			path = "Indoor-CrocodileUITests";
 			sourceTree = "<group>";
 		};
-		65F8E72027862A3E0001F177 /* Models */ = {
+		65F8E72027862A3E0001F177 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				65F8E72127862A490001F177 /* Tenant.swift */,
 				65F8E72327862A4F0001F177 /* Landlord.swift */,
+				65679775279DBA2700B8F59F /* UserAccount.swift */,
+				65679777279DBA2D00B8F59F /* User.swift */,
+				65679779279DBDB100B8F59F /* House.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6567977A279DBDB100B8F59F /* House.swift in Sources */,
 				65F8E72227862A490001F177 /* Tenant.swift in Sources */,
 				65F8E72427862A4F0001F177 /* Landlord.swift in Sources */,
+				65679778279DBA2D00B8F59F /* User.swift in Sources */,
 				659908DD275E9F6C001F7C8B /* ContentView.swift in Sources */,
 				659908DB275E9F6C001F7C8B /* Indoor_CrocodileApp.swift in Sources */,
+				65679776279DBA2700B8F59F /* UserAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
