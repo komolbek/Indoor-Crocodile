@@ -10,6 +10,11 @@
 		65679776279DBA2700B8F59F /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679775279DBA2700B8F59F /* UserAccount.swift */; };
 		65679778279DBA2D00B8F59F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679777279DBA2D00B8F59F /* User.swift */; };
 		6567977A279DBDB100B8F59F /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679779279DBDB100B8F59F /* House.swift */; };
+		6567977F279DC6CD00B8F59F /* LandlordViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567977E279DC6CD00B8F59F /* LandlordViewData.swift */; };
+		65679781279DC6EE00B8F59F /* TenantViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679780279DC6EE00B8F59F /* TenantViewData.swift */; };
+		65679783279DC78B00B8F59F /* HouseRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679782279DC78B00B8F59F /* HouseRule.swift */; };
+		65679785279DC7E000B8F59F /* HouseViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679784279DC7E000B8F59F /* HouseViewData.swift */; };
+		65679787279DC87C00B8F59F /* HouseRuleViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65679786279DC87C00B8F59F /* HouseRuleViewData.swift */; };
 		659908DB275E9F6C001F7C8B /* Indoor_CrocodileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908DA275E9F6C001F7C8B /* Indoor_CrocodileApp.swift */; };
 		659908DD275E9F6C001F7C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908DC275E9F6C001F7C8B /* ContentView.swift */; };
 		659908DF275E9F70001F7C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659908DE275E9F70001F7C8B /* Assets.xcassets */; };
@@ -42,6 +47,11 @@
 		65679775279DBA2700B8F59F /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
 		65679777279DBA2D00B8F59F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		65679779279DBDB100B8F59F /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		6567977E279DC6CD00B8F59F /* LandlordViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandlordViewData.swift; sourceTree = "<group>"; };
+		65679780279DC6EE00B8F59F /* TenantViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantViewData.swift; sourceTree = "<group>"; };
+		65679782279DC78B00B8F59F /* HouseRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRule.swift; sourceTree = "<group>"; };
+		65679784279DC7E000B8F59F /* HouseViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewData.swift; sourceTree = "<group>"; };
+		65679786279DC87C00B8F59F /* HouseRuleViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRuleViewData.swift; sourceTree = "<group>"; };
 		659908D7275E9F6C001F7C8B /* Indoor-Crocodile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indoor-Crocodile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659908DA275E9F6C001F7C8B /* Indoor_CrocodileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indoor_CrocodileApp.swift; sourceTree = "<group>"; };
 		659908DC275E9F6C001F7C8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +91,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6567977B279DC68000B8F59F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				659908DC275E9F6C001F7C8B /* ContentView.swift */,
+				6567977D279DC69000B8F59F /* ViewData */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6567977C279DC68500B8F59F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6567977D279DC69000B8F59F /* ViewData */ = {
+			isa = PBXGroup;
+			children = (
+				6567977E279DC6CD00B8F59F /* LandlordViewData.swift */,
+				65679780279DC6EE00B8F59F /* TenantViewData.swift */,
+				65679784279DC7E000B8F59F /* HouseViewData.swift */,
+				65679786279DC87C00B8F59F /* HouseRuleViewData.swift */,
+			);
+			path = ViewData;
+			sourceTree = "<group>";
+		};
 		659908CE275E9F6C001F7C8B = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +141,10 @@
 		659908D9275E9F6C001F7C8B /* Indoor-Crocodile */ = {
 			isa = PBXGroup;
 			children = (
+				6567977C279DC68500B8F59F /* Controller */,
+				6567977B279DC68000B8F59F /* View */,
 				65F8E72027862A3E0001F177 /* Model */,
 				659908DA275E9F6C001F7C8B /* Indoor_CrocodileApp.swift */,
-				659908DC275E9F6C001F7C8B /* ContentView.swift */,
 				659908DE275E9F70001F7C8B /* Assets.xcassets */,
 				659908E0275E9F70001F7C8B /* Preview Content */,
 			);
@@ -146,6 +184,7 @@
 				65679775279DBA2700B8F59F /* UserAccount.swift */,
 				65679777279DBA2D00B8F59F /* User.swift */,
 				65679779279DBDB100B8F59F /* House.swift */,
+				65679782279DC78B00B8F59F /* HouseRule.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -280,12 +319,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65679781279DC6EE00B8F59F /* TenantViewData.swift in Sources */,
 				6567977A279DBDB100B8F59F /* House.swift in Sources */,
 				65F8E72227862A490001F177 /* Tenant.swift in Sources */,
+				65679787279DC87C00B8F59F /* HouseRuleViewData.swift in Sources */,
 				65F8E72427862A4F0001F177 /* Landlord.swift in Sources */,
+				65679783279DC78B00B8F59F /* HouseRule.swift in Sources */,
 				65679778279DBA2D00B8F59F /* User.swift in Sources */,
 				659908DD275E9F6C001F7C8B /* ContentView.swift in Sources */,
+				65679785279DC7E000B8F59F /* HouseViewData.swift in Sources */,
 				659908DB275E9F6C001F7C8B /* Indoor_CrocodileApp.swift in Sources */,
+				6567977F279DC6CD00B8F59F /* LandlordViewData.swift in Sources */,
 				65679776279DBA2700B8F59F /* UserAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

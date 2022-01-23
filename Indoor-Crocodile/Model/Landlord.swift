@@ -9,15 +9,6 @@ import Foundation
 
 public final class Landlord : User {
     
-    // MARK: - Internal variables
-    
-    private var _houses: [House] = []
-    
-    
-    // MARK: - Public properties
-    
-    public var houses: [House] { _houses }
-    
     // MARK: - Operations / Behaviours
     
     public func add(_ house: House) {
@@ -26,5 +17,15 @@ public final class Landlord : User {
     
     public func remove(_ house: House) {
         
+    }
+    
+    public func getHouses() -> [House] {
+        
+        return []
+    }
+    
+    public func getHouseBy(_ id: Int ) -> House {
+        
+        return .init()
     }
 }

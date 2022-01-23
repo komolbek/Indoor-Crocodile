@@ -38,7 +38,7 @@ public struct UserAccount {
         
     }
     
-    public func isAuthenticated(_ user: User) -> Bool {
+    public func isAuthenticated() -> Bool {
         
         return true
     }
@@ -51,7 +51,7 @@ public struct UserAccount {
         
     }
     
-    public func changePassword(toNew password: String) {
+    public func change(_ password: String) {
         
     }
     
