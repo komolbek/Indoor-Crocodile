@@ -26,9 +26,9 @@ Currently I am on the desing stage. Particularly, optimising domain model.
 ![Indoor Crocodile use cases](https://user-images.githubusercontent.com/55618255/150384427-8d358754-5cfc-40e8-8cdf-236e30e31626.jpg)
 
 
-<p align="center">Domain classes and model diagram</p>
+<p align="center">Domain classes and model diagram (improved)</p>
 
-<img width="1058" alt="Screenshot 2021-12-06 at 14 56 33" src="https://user-images.githubusercontent.com/55618255/144868582-09a9c53c-98b7-4f49-b8dd-f14113c05a98.png">
+![Indoor Crocodile domain model v2](https://user-images.githubusercontent.com/55618255/150862886-035d9c66-7b44-4360-9e06-c22117d66a34.jpg)
 
 <h2 id="prototype"> Prototype </h2>
 <h2 id="implementation"> Implementation </h2>
