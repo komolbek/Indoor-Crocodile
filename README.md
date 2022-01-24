@@ -28,7 +28,7 @@ Currently I am on the desing stage. Particularly, optimising domain model.
 
 <p align="center">Domain classes and model diagram (improved)</p>
 
-![Indoor Crocodile domain model v2](https://user-images.githubusercontent.com/55618255/150862886-035d9c66-7b44-4360-9e06-c22117d66a34.jpg)
+![TenantSpace domain model v2](https://user-images.githubusercontent.com/55618255/150863040-2810b446-6fff-4cd4-8de3-c580fa9b2d96.jpg)
 
 <h2 id="prototype"> Prototype </h2>
 <h2 id="implementation"> Implementation </h2>
