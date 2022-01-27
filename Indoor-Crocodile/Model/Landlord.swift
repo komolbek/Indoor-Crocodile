@@ -7,25 +7,13 @@
 
 import Foundation
 
-public final class Landlord : User {
+public struct Landlord : User {
     
-    // MARK: - Operations / Behaviours
+    public var userId: Int
+
+    public var firstName: String
     
-    public func add(_ house: House) {
-        
-    }
+    public var lastName: String
     
-    public func remove(_ house: House) {
-        
-    }
-    
-    public func getHouses() -> [House] {
-        
-        return []
-    }
-    
-    public func getHouseBy(_ id: Int ) -> House {
-        
-        return .init()
-    }
+    public var accountType: String
 }

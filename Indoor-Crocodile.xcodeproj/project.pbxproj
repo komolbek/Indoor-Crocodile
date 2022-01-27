@@ -22,6 +22,11 @@
 		659908EC275E9F71001F7C8B /* Indoor_CrocodileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908EB275E9F71001F7C8B /* Indoor_CrocodileTests.swift */; };
 		659908F6275E9F71001F7C8B /* Indoor_CrocodileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908F5275E9F71001F7C8B /* Indoor_CrocodileUITests.swift */; };
 		659908F8275E9F71001F7C8B /* Indoor_CrocodileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659908F7275E9F71001F7C8B /* Indoor_CrocodileUITestsLaunchTests.swift */; };
+		65B146DB27A329F8003EE6D6 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B146DA27A329F8003EE6D6 /* Room.swift */; };
+		65B146DD27A32ABE003EE6D6 /* UserSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B146DC27A32ABE003EE6D6 /* UserSignIn.swift */; };
+		65B146E127A32B29003EE6D6 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B146E027A32B29003EE6D6 /* UserSignUp.swift */; };
+		65B146E327A32B74003EE6D6 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B146E227A32B74003EE6D6 /* AuthViewModel.swift */; };
+		65B146E527A32CD2003EE6D6 /* Reputation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B146E427A32CD2003EE6D6 /* Reputation.swift */; };
 		65F8E72227862A490001F177 /* Tenant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F8E72127862A490001F177 /* Tenant.swift */; };
 		65F8E72427862A4F0001F177 /* Landlord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F8E72327862A4F0001F177 /* Landlord.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +67,11 @@
 		659908F1275E9F71001F7C8B /* Indoor-CrocodileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indoor-CrocodileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659908F5275E9F71001F7C8B /* Indoor_CrocodileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indoor_CrocodileUITests.swift; sourceTree = "<group>"; };
 		659908F7275E9F71001F7C8B /* Indoor_CrocodileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indoor_CrocodileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65B146DA27A329F8003EE6D6 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		65B146DC27A32ABE003EE6D6 /* UserSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignIn.swift; sourceTree = "<group>"; };
+		65B146E027A32B29003EE6D6 /* UserSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUp.swift; sourceTree = "<group>"; };
+		65B146E227A32B74003EE6D6 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		65B146E427A32CD2003EE6D6 /* Reputation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reputation.swift; sourceTree = "<group>"; };
 		65F8E72127862A490001F177 /* Tenant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tenant.swift; sourceTree = "<group>"; };
 		65F8E72327862A4F0001F177 /* Landlord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landlord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,11 +110,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		6567977C279DC68500B8F59F /* Controller */ = {
+		6567977C279DC68500B8F59F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				65B146E227A32B74003EE6D6 /* AuthViewModel.swift */,
 			);
-			path = Controller;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		6567977D279DC69000B8F59F /* ViewData */ = {
@@ -141,7 +152,7 @@
 		659908D9275E9F6C001F7C8B /* Indoor-Crocodile */ = {
 			isa = PBXGroup;
 			children = (
-				6567977C279DC68500B8F59F /* Controller */,
+				6567977C279DC68500B8F59F /* ViewModel */,
 				6567977B279DC68000B8F59F /* View */,
 				65F8E72027862A3E0001F177 /* Model */,
 				659908DA275E9F6C001F7C8B /* Indoor_CrocodileApp.swift */,
@@ -179,12 +190,16 @@
 		65F8E72027862A3E0001F177 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				65F8E72127862A490001F177 /* Tenant.swift */,
-				65F8E72327862A4F0001F177 /* Landlord.swift */,
-				65679775279DBA2700B8F59F /* UserAccount.swift */,
-				65679777279DBA2D00B8F59F /* User.swift */,
 				65679779279DBDB100B8F59F /* House.swift */,
 				65679782279DC78B00B8F59F /* HouseRule.swift */,
+				65F8E72327862A4F0001F177 /* Landlord.swift */,
+				65B146DA27A329F8003EE6D6 /* Room.swift */,
+				65F8E72127862A490001F177 /* Tenant.swift */,
+				65679777279DBA2D00B8F59F /* User.swift */,
+				65679775279DBA2700B8F59F /* UserAccount.swift */,
+				65B146DC27A32ABE003EE6D6 /* UserSignIn.swift */,
+				65B146E027A32B29003EE6D6 /* UserSignUp.swift */,
+				65B146E427A32CD2003EE6D6 /* Reputation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,18 +334,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B146DD27A32ABE003EE6D6 /* UserSignIn.swift in Sources */,
+				65B146E127A32B29003EE6D6 /* UserSignUp.swift in Sources */,
 				65679781279DC6EE00B8F59F /* TenantViewData.swift in Sources */,
 				6567977A279DBDB100B8F59F /* House.swift in Sources */,
 				65F8E72227862A490001F177 /* Tenant.swift in Sources */,
 				65679787279DC87C00B8F59F /* HouseRuleViewData.swift in Sources */,
 				65F8E72427862A4F0001F177 /* Landlord.swift in Sources */,
 				65679783279DC78B00B8F59F /* HouseRule.swift in Sources */,
+				65B146DB27A329F8003EE6D6 /* Room.swift in Sources */,
 				65679778279DBA2D00B8F59F /* User.swift in Sources */,
 				659908DD275E9F6C001F7C8B /* ContentView.swift in Sources */,
 				65679785279DC7E000B8F59F /* HouseViewData.swift in Sources */,
+				65B146E327A32B74003EE6D6 /* AuthViewModel.swift in Sources */,
 				659908DB275E9F6C001F7C8B /* Indoor_CrocodileApp.swift in Sources */,
 				6567977F279DC6CD00B8F59F /* LandlordViewData.swift in Sources */,
 				65679776279DBA2700B8F59F /* UserAccount.swift in Sources */,
+				65B146E527A32CD2003EE6D6 /* Reputation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

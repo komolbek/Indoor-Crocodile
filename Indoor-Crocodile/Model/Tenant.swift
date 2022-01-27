@@ -7,6 +7,19 @@
 
 import Foundation
 
-public final class Tenant : User {
+public struct Tenant : User {
     
+    public var userId: Int
+    
+    public let house: House
+    
+    public let room: Room
+    
+    public let reputation: Reputation
+    
+    public var firstName: String
+    
+    public var lastName: String
+    
+    public var accountType: String
 }
