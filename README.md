@@ -16,7 +16,7 @@ Indoor Crocodile is an innovative tenant management and interaction iOS applicat
 - [ ] Design;
 
 
-Currently I am on the desing stage. Particularly, implemeting business logic using domain model & use cases.  
+Currently I am on the desing stage. Further task decomposition is required.  
 
 <h2 id="app-features"> App features </h2>
 <h2 id="main-design-diagrams"> Main Design diagrams </h2>
